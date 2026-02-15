@@ -61,8 +61,8 @@
 }
 
 .about .about-copy .about-icon {
-  width: 25rem;
-  height: 25rem;
+  width: 10rem;
+  height: auto;
 }
 
 .about .about-copy .about-icon svg {

@@ -39,10 +39,10 @@ const MarqueeBanner = () => {
     <section className="marquee-banner" ref={marqueeBannerRef}>
       <div className="marquees">
         <div className="marquee-header marquee-header-1" ref={marquee1Ref}>
-          <h1>Transmission lost in neutral space</h1>
+          <h1>Your Path to Progress </h1>
         </div>
         <div className="marquee-header marquee-header-2" ref={marquee2Ref}>
-          <h1>Synthetic forms archive the signal</h1>
+          <h1>OPM Skills Academy</h1>
         </div>
       </div>
       <div className="banner">
@@ -58,7 +58,7 @@ const MarqueeBanner = () => {
           <img src="/marquee-banner/marquee_banner_01.png" alt="" />
         </div>
         <div className="banner-logo">
-          <h5>Nrmlss</h5>
+        <img src="/home/opm-logo-enhanced.png" alt="" />
         </div>
       </div>
     </section>

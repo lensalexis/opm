@@ -75,7 +75,7 @@ export default function Index() {
         <div className="container">
           <div className="hero-header" ref={heroHeaderRef}>
             <Copy animateOnScroll={false} delay={isInitialLoad ? 5.5 : 0.65}>
-              <h1>Silhouettes for the Next Era</h1>
+              <h1>Train with OPM</h1>
             </Copy>
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function Index() {
             delay={isInitialLoad ? 7.5 : 0.65}
             animateOnScroll={false}
           >
-            <p>Model v.23</p>
+            <p>Model v.22</p>
           </Copy>
         </div>
       </section>
@@ -104,12 +104,11 @@ export default function Index() {
         <div className="container">
           <div className="about-copy">
             <Copy type="flicker">
-              <p>Clothing reduced to pure signal</p>
+              <p>Develop the Fundamentals</p>
             </Copy>
             <Copy>
               <h3>
-                Our collections are built for the frictionless, the fast, and
-                the quietly defiant.
+              Every session is designed to build fundamentals, discipline, and game awareness.
               </h3>
             </Copy>
             <div className="about-icon">
@@ -119,7 +118,7 @@ export default function Index() {
         </div>
         <div className="section-footer light">
           <Copy type="flicker">
-            <p>/ Core State /</p>
+            <p>/  Only Progress Matters /</p>
           </Copy>
         </div>
       </section>

@@ -28,8 +28,33 @@ const dmMono = DM_Mono({
 });
 
 export const metadata = {
-  title: "NRMLSS | Codegrid",
-  description: "MWT by Codegrid",
+  title: {
+    default: "Train with OPM | Elite Basketball Training",
+    template: "%s | OPM",
+  },
+  description:
+    "Elite basketball training focused on skill development, discipline, and confidence. Personalized sessions, camps, and team clinics designed to help athletes grow—on and off the court.",
+  keywords: [
+    "basketball training",
+    "basketball camps",
+    "basketball clinics",
+    "skill development",
+    "youth basketball",
+    "OPM Skills Academy",
+    "elite basketball",
+  ],
+  openGraph: {
+    title: "Train with OPM | Elite Basketball Training",
+    description:
+      "Elite basketball training focused on skill development, discipline, and confidence. Personalized sessions, camps, and team clinics designed to help athletes grow—on and off the court.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Train with OPM | Elite Basketball Training",
+    description:
+      "Elite basketball training focused on skill development, discipline, and confidence. Personalized sessions, camps, and team clinics.",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -129,7 +129,7 @@ const Preloader = () => {
       <div className="preloader-progress">
         <div className="preloader-progress-bar"></div>
         <div className="preloader-logo">
-          <h1>Nrmlss</h1>
+          <h1>OPM Skills Academy</h1>
         </div>
       </div>
       <div className="preloader-mask"></div>

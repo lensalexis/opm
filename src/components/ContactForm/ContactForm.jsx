@@ -6,8 +6,8 @@ const ContactForm = () => {
   return (
     <section className="contact-form">
       <div className="contact-parallax-image-wrapper">
-        <h1>Nrmlss</h1>
-        <img src="/contact-form/contact-parallax.png" alt="" />
+        <h1>OPM</h1>
+        <img src="/contact-form/contact-parallax-opm.png" alt="" />
       </div>
       <div className="contact-form-container">
         <div className="cf-header">
