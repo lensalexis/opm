@@ -327,11 +327,11 @@ const Menu = () => {
                 <h4>Wardrobe</h4>
               </Link>
               <Link
-                href="/genesis"
+                href="/opm"
                 className="menu-main-link"
                 onClick={handleLinkClick}
               >
-                <h4>Genesis</h4>
+                <h4>OPM</h4>
               </Link>
             </div>
           </div>
@@ -344,8 +344,8 @@ const Menu = () => {
                 <Link href="/lookbook" onClick={handleLinkClick}>
                   Lookbook
                 </Link>
-                <Link href="/touchpoint" onClick={handleLinkClick}>
-                  Touchpoint
+                <Link href="/contact" onClick={handleLinkClick}>
+                  Contact
                 </Link>
                 <Link href="/unit" onClick={handleLinkClick}>
                   Shell (A)

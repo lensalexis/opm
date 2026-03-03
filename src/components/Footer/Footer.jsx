@@ -18,8 +18,8 @@ const Footer = () => {
               <div className="footer-col-links">
                 <Link href="/">Index</Link>
                 <Link href="/wardrobe">Wardrobe</Link>
-                <Link href="/genesis">Genesis</Link>
-                <Link href="/contact">Touchpoint</Link>
+                <Link href="/opm">OPM</Link>
+                <Link href="/contact">Contact</Link>
                 <Link href="/lookbook">Lookbook</Link>
               </div>
             </div>
@@ -57,10 +57,10 @@ const Footer = () => {
           </div>
           <div className="footer-row">
             <div className="footer-copyright">
-              <h5>Nrmlss</h5>
-              <p className="bodyCopy">&copy;2025 All modules reserved.</p>
+            <img src="/home/opm-logo-enhanced.png" alt="" style={{ width: "100px" }} />
+              <p className="bodyCopy">&copy;2026 Only Progress Matters.</p>
               <p className="bodyCopy" id="copyright-text">
-                Built by Codegrid
+                Powered by Lens
               </p>
             </div>
           </div>

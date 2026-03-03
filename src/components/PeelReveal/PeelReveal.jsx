@@ -126,15 +126,15 @@ const PeelReveal = () => {
       <section className="peel-reveal">
         <div className="section-header">
           <Copy type="flicker">
-            <p>Signal type: Neutral</p>
+            <p>Beginner to Advanced</p>
           </Copy>
           <Copy type="flicker">
-            <p>Module ID: Nrmlss_001</p>
+            <p>Progress Driven Programs</p>
           </Copy>
         </div>
         <div className="section-footer">
           <Copy type="flicker">
-            <p>Status: Detached</p>
+            <p>from the youth to elite levels</p>
           </Copy>
         </div>
         <div className="peel-reveal-img-container">
@@ -160,15 +160,15 @@ const PeelReveal = () => {
             <img src="/peel-reveal/peel-reveal-img-opm.jpg" alt="" />
           </div>
           <div className="peel-reveal-header">
-            <h1>The uniform holds no allegiance</h1>
+            <h1>from the youth to elite levels</h1>
           </div>
         </div>
         <div className="peel-reveal-intro-text-container">
           <div className="peel-reveal-intro-text">
-            <h1>Signal</h1>
+            <h1>Youth</h1>
           </div>
           <div className="peel-reveal-intro-text">
-            <h1>Motion</h1>
+            <h1>Coaching</h1>
           </div>
         </div>
       </section>

@@ -85,6 +85,10 @@
   background-color: #ffffff;
 }
 
+.products-header .filter-bar-colors span.default {
+  background-color: var(--base-400);
+}
+
 .products-header .filter-bar-colors span.active {
   border: 0.125rem dashed var(--base-700);
 }

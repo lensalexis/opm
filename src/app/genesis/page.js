@@ -125,32 +125,27 @@ export default function Genesis() {
         <div className="container">
           <div className="gen-hero-copy">
             <Copy animateOnScroll={false} delay={0.7} type="flicker">
-              <p>Signal over surplus,</p>
-              <p>Fragments of identity,</p>
-              <p>Minimal by necessity.</p>
+              <p>all skill levels welcome</p>
             </Copy>
           </div>
           <div className="gen-hero-copy">
             <Copy animateOnScroll={false} delay={0.8} type="flicker">
-              <p>We design future forms,</p>
-              <p>Built for the now.</p>
+              <p>Year-Round Skill Development</p>
             </Copy>
           </div>
           <div className="gen-hero-copy">
             <Copy animateOnScroll={false} delay={0.7}>
-              <h1>The team behind your training</h1>
+              <h1>Basketball Training Academy</h1>
             </Copy>
             <div className="gen-hero-meta">
               <div className="gen-hero-meta-block">
                 <Copy animateOnScroll={false} delay={0.9} type="flicker">
-                  <p>We create frameworks,</p>
-                  <p>For the unnamed future,</p>
-                  <p>A study in silhouette.</p>
+                  <p>Elite basketball training near you</p>
                 </Copy>
               </div>
               <div className="gen-hero-meta-block">
                 <Copy animateOnScroll={false} delay={1} type="flicker">
-                  <p>[ SYS/NRMLSS/0001 ]</p>
+                  <p>Nation's Top Basketball Coaches</p>
                 </Copy>
               </div>
             </div>
@@ -172,8 +167,8 @@ export default function Genesis() {
             </Copy>
             <Copy>
               <h4 delay={0.5}>
-              Our mission is to develop athletes through deliberate training and sustained effort. 
-              We build skills that last and a mindset focused on long term growth.
+              From shooting and ball handling to basketball IQ,
+              we help players unlock their full potential.
               </h4>
             </Copy>
           </div>

@@ -25,7 +25,10 @@ const Product = ({
   return (
     <div className={`product ${className}`} ref={innerRef} style={style}>
       <Link href="/unit" className="product-img" onClick={handleImageClick}>
-        <img src={`/products/product_${productIndex}.png`} alt={product.name} />
+        <img
+          src={product.image || "/home/basketball.png"}
+          alt={product.name}
+        />
       </Link>
       <div className="product-info">
         <div className="product-info-wrapper">

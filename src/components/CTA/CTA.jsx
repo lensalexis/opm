@@ -65,8 +65,7 @@ const CTA = () => {
           <div className="cta-col-copy">
             <Copy>
               <p className="bodyCopy sm">
-                Built to exist outside context, these forms prioritize
-                neutrality, and distortion.
+              Looking for elite basketball training near you?
               </p>
             </Copy>
           </div>
@@ -74,7 +73,7 @@ const CTA = () => {
         <div className="cta-col">
           <div className="cta-header">
             <Copy>
-              <h3>A field test in silhouettes</h3>
+              <h3>Nation's Top Basketball Coaches</h3>
             </Copy>
           </div>
           <div className="cta-main-img">
@@ -91,7 +90,7 @@ const CTA = () => {
         <div className="cta-main-copy">
           <div className="btn">
             <Copy type="flicker">
-              <Link href="/wardrobe">Enter Wardrobe</Link>
+              <Link href="/wardrobe">MEET THE COACHES</Link>
             </Copy>
           </div>
         </div>

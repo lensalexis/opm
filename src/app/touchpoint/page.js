@@ -66,7 +66,7 @@ export default function Touchpoint() {
           <div className="contact-hero-col contact-hero-copy">
             <div className="contact-header">
               <Copy animateOnScroll={false} delay={0.75}>
-                <h3>Outbound access is limited, proceed with intent.</h3>
+                <h3>Explore basketball training locations and programs</h3>
               </Copy>
             </div>
             <div className="contact-meta">

@@ -48,17 +48,17 @@ const MarqueeBanner = () => {
       <div className="banner">
         <div className="banner-content">
           <Copy type="flicker">
-            <p>[ Frame Shift ]</p>
+            <p>[ Basketball Coaching ]</p>
           </Copy>
           <Copy>
-            <h4>Modular silence across systems</h4>
+            <h4>Location Based Training</h4>
           </Copy>
         </div>
         <div className="banner-img">
           <img src="/marquee-banner/marquee_banner_01.png" alt="" />
         </div>
         <div className="banner-logo">
-        <img src="/home/opm-logo-enhanced.png" alt="" />
+        <img src="/home/opm-logo-enhanced.png" alt="" style={{ width: "100px" }} />
         </div>
       </div>
     </section>

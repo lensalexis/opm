@@ -102,6 +102,13 @@
   right: 0;
 }
 
+.product-meta-container .product-description {
+  color: var(--base-600);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 32rem;
+}
+
 .product-color-container,
 .product-sizes-container {
   display: flex;

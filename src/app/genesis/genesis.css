@@ -65,8 +65,19 @@
 }
 
 .genesis-about .container .genesis-about-logo {
-  width: 8rem;
-  height: 8rem;
+  width: 16rem;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+.genesis-about .container .genesis-about-logo img {
+  width: 100%;
+  height: auto;
+  max-width: 14rem;
+  object-fit: contain;
 }
 
 .genesis-about .container .genesis-about-copy {

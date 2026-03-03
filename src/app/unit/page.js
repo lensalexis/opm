@@ -21,8 +21,7 @@ export default function Unit() {
   const addToCart = useCartStore((state) => state.addToCart);
   const pathname = usePathname();
 
-  const currentProduct =
-    products.find((p) => p.name === "Veil Unit") || products[14];
+  const currentProduct = products[0];
 
   useEffect(() => {
     const shuffled = [...products].sort(() => 0.5 - Math.random());
@@ -172,27 +171,13 @@ export default function Unit() {
         <div className="product-hero-col product-meta">
           <div className="product-meta-container">
             <div className="product-meta-header">
-              <h3>Veil Unit</h3>
-              <h3>€175</h3>
+              <h3>{currentProduct.name}</h3>
+              <h3>${currentProduct.price}</h3>
             </div>
             <div className="product-meta-header-divider"></div>
-            <div className="product-color-container">
-              <p className="md">Chroma</p>
-              <div className="product-colors">
-                <div className="product-color">
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <div className="product-sizes-container">
-              <p className="md">Form Size</p>
-              <div className="product-sizes">
-                <p className="md selected">[ S ]</p>
-                <p className="md">[ M ]</p>
-                <p className="md">[ L ]</p>
-                <p className="md">[ XL ]</p>
-              </div>
-            </div>
+            {currentProduct.description && (
+              <p className="md product-description">{currentProduct.description}</p>
+            )}
             <div className="product-meta-buttons">
               <button
                 className="primary"

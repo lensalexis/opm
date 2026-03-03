@@ -75,7 +75,7 @@ export default function Index() {
         <div className="container">
           <div className="hero-header" ref={heroHeaderRef}>
             <Copy animateOnScroll={false} delay={isInitialLoad ? 5.5 : 0.65}>
-              <h1>Train with OPM</h1>
+              <h1>Train with OPM<br /> All Skill Levels<br /> Welcome</h1>
             </Copy>
           </div>
         </div>
@@ -127,11 +127,11 @@ export default function Index() {
         <div className="container">
           <div className="featured-products-header">
             <Copy type="flicker">
-              <p>Featured Units</p>
+              <p>Train with Purpose</p>
             </Copy>
             <Copy>
               <h3>
-                Selected <br /> Garments
+                Book Your Next <br /> Training Session
               </h3>
             </Copy>
           </div>
