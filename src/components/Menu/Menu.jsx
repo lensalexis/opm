@@ -338,7 +338,7 @@ const Menu = () => {
           <div className="menu-overlay-col menu-overlay-col-lg">
             <div className="menu-overlay-sub-col">
               <div className="menu-items-header">
-                <p>Subroutine</p>
+                <p>Quick Links</p>
               </div>
               <div className="menu-sub-links">
                 <Link href="/lookbook" onClick={handleLinkClick}>
@@ -347,27 +347,27 @@ const Menu = () => {
                 <Link href="/contact" onClick={handleLinkClick}>
                   Contact
                 </Link>
-                <Link href="/unit" onClick={handleLinkClick}>
-                  Shell (A)
+                <Link href="#" onClick={handleLinkClick}>
+                  Locations
                 </Link>
               </div>
             </div>
             <div className="menu-overlay-sub-col">
               <div className="menu-items-header">
-                <p>Field Tests</p>
+                <p>Programs</p>
               </div>
               <div className="menu-sub-links menu-product-links">
-                <Link href="/product" onClick={handleLinkClick}>
-                  01. Unbody
+                <Link href="#" onClick={handleLinkClick}>
+                  12 Session Training Package
                 </Link>
-                <Link href="/product" onClick={handleLinkClick}>
-                  02. Persona Null
+                <Link href="#" onClick={handleLinkClick}>
+                  6 Session Training Package
                 </Link>
-                <Link href="/product" onClick={handleLinkClick}>
-                  03. Second Host
+                <Link href="#" onClick={handleLinkClick}>
+                  3 Session Training Package
                 </Link>
-                <Link href="/product" onClick={handleLinkClick}>
-                  04. Shellcode
+                <Link href="#" onClick={handleLinkClick}>
+                  1 Session — Individual Training
                 </Link>
               </div>
             </div>
